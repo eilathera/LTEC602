@@ -1,3 +1,33 @@
-#test {
-  color: blue;
+.blog-post {
+    height: 100vh;
+}
+
+.blog-post h3 {
+    text-align: center;
+}
+
+.valignpar {
+    height: 100%;
+    vertical-align: middle;
+    border: #a0a0a0 solid 1px;
+    background: #f5f5f5;
+}
+
+.valignpar:before {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+    margin-right: -0.25em;
+    /* Adjusts for spacing */
+}
+
+.centered {
+    text-align: center;
+    vertical-align: middle;
+    line-height: inherit;
+    /*display: inline-block;
+    vertical-align: middle;
+    border: #a0a0a0 solid 1px;
+    background: #f5f5f5;*/
 }
