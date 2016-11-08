@@ -4,6 +4,22 @@ body {
     margin: 2rem;
 }
 
+.sidemenu{
+    background-image: url(../img/menublank.png);
+    width: 232px;
+    height: 289px;
+}
+
+#menulist{
+    list-style-type: none;
+    padding-left: 33%;
+    padding-top: 30%;
+}
+
+#menulist li{
+    color: white;
+}
+
 .active-tb {
     position: relative;
     box-shadow: 0px 2px 10px 0px rgba(50, 50, 50, 0.5);
