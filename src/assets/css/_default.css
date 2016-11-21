@@ -1,7 +1,12 @@
+h3 {
+    font-family: 'Press Start 2P', cursive;
+}
+
 body {
     background-image: url("https://s13.postimg.org/68uu6wcsn/proto_1_populated.png");
     background-size: cover;
     margin: 2rem;
+    font-family: 'Space Mono', monospace;
 }
 
 .sidemenu{
@@ -14,10 +19,6 @@ body {
     list-style-type: none;
     padding-left: 33%;
     padding-top: 30%;
-}
-
-#menulist li{
-    color: white;
 }
 
 .active-tb {
