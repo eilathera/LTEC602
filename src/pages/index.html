@@ -10,6 +10,9 @@
     <link rel="stylesheet" type="text/css" href="assets/css/profile.css">
     <link rel="stylesheet" type="text/css" href="assets/css/headercard.css">
     <link rel="stylesheet" type="text/css" href="assets/css/aboutuscard.css">
+    <!-- pros & cons tabs -->
+    <link href="http://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.css" rel="stylesheet">
+    <link href="assets/css/prosconstabs.css" rel="stylesheet">
     <!-- fonts -->
     <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Space+Mono" rel="stylesheet">
@@ -33,17 +36,15 @@
     <!-- TODO: Figure out what we want the sidebar to look like -->
     <!-- TODO: Implement sidebar design -->
 
-    <div class="small-3 columns" data-sticky-container>
-        <div class="sticky sidemenu" data-sticky data-anchor="content">
-            <ul id="menulist">
-                <li><a href="#Game">Game</a></li>
-                <li><a href="#LearningStyles">Learning Styles</a></li>
-                <li><a href="#Design">Design</a></li>
-                <li><a href="#Students">Students</a></li>
-                <li><a href="#Application">Application</a></li>
-                <li><a href="#AboutUs">About Us</a></li>
-            </ul>
-        </div>
+    <div class="sidemenu">
+        <ul class="sidemenu" id="menulist">
+            <li><a href="#Game">Game</a></li>
+            <li><a href="#LearningStyles">Learning</a></li>
+            <li><a href="#Design">Design</a></li>
+            <li><a href="#Students">Students</a></li>
+            <li><a href="#Application">Application</a></li>
+            <li><a href="#AboutUs">About Us</a></li>
+        </ul>
     </div>
     <!-- End Navigation Sidebar -->
 
@@ -57,16 +58,48 @@
                 <!-- TODO: Create Game -->
                 <!-- TODO: Do we want content at the bottom of this section? -->
                 <!-- Maybe it'd be good to have some content if the game isn't fully complete -->
-                <div class="blog-post">
-                    <h3 id="Game">Game</h3>
-                    <img class="thumbnail" src="http://placehold.it/850x350">
-                    <p>Praesent id metus massa, ut blandit odio. Proin quis tortor orci. Etiam at risus et justo dignissim congue. Donec congue lacinia dui, a porttitor lectus condimentum laoreet. Nunc eu ullamcorper orci. Quisque eget odio ac lectus vestibulum
-                        faucibus eget in metus. In pellentesque faucibus vestibulum. Nulla at nulla justo, eget luctus.</p>
-                    <div class="callout">
-                        <ul class="menu simple">
-                            <li><a href="#">Author: Mike Mikers</a></li>
-                            <li><a href="#">Comments: 3</a></li>
+                <div class="GameSection blog-post">
+                    <h3 id="Game">Gamification Types</h3>
+                    <p>Gamification is a very widely used and general term that blankets a variety of game types, structures, and delivery. However, for we will be focusing on the basic delivery types of gamification in the classroom.</p>
+                    <p>There are two type of delivery options when it comes to educational gamification. One and probably easier of the two is the physical delivery of instruction through a physical type of game. (i.e board games, card games, etc.) The second
+                        type of gamification in education is through technology based delivery. These include games that run through computers, mobile devices, and game consoles.</p>
+                    <p>For the sake of this website we will be focusing on the technology based gamification. Below are some of the pros and cons about gamification in the classroom. </p>
+
+                    <!-- Pros & Cons Tabs -->
+                    <div class="row column">
+                        <ul class="tabs text-center" data-tabs id="example-tabs">
+                            <li class="tabs-title is-active"><a href="#panel1" aria-selected="true">Pros</a></li>
+                            <li class="tabs-title"><a href="#panel2">Cons</a></li>
                         </ul>
+                        <div class="tabs-content" data-tabs-content="example-tabs">
+                            <!-- pros panel -->
+                            <div class="tabs-panel is-active" id="panel1">
+                                <ul>
+                                    <ul>
+                                        <ul>
+                                            <li>Increases student engagement, introduces the element of “fun” in learning</li>
+                                            <li>Hits all learner types, visual, auditory, and kinesthetic learners</li>
+                                            <li>Offers immediate signs of achievement and progress for students and parents</li>
+                                            <li>Creates enthusiasm amongst all learners</li>
+                                            <li>Allows for social connections to be made amongst students in the same and different classrooms</li>
+                                            <li>Games created for mobile use are portable and can follow the user wherever he/she may go</li>
+                                        </ul>
+                                    </ul>
+                                </ul>
+                            </div>
+                            <!-- cons panel -->
+                            <div class="tabs-panel" id="panel2">
+                                <ul>
+                                    <ul>
+                                        <ul>
+                                            <li>Untraditional kind of learning that may not be accepted by all faculty, parents, or students</li>
+                                            <li>Cost Student assessment alignment with state assessments</li>
+                                            <li>Game modification for each individual student</li>
+                                        </ul>
+                                    </ul>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <!-- End Game Section -->

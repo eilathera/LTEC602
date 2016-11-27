@@ -13,12 +13,17 @@ body {
     background-image: url(../img/menublank.png);
     width: 232px;
     height: 289px;
+    position: fixed;
 }
 
 #menulist{
     list-style-type: none;
-    padding-left: 33%;
-    padding-top: 30%;
+    padding-left: 70px;
+    padding-top: 80px;
+}
+
+#menulist a:link a:visited{
+    color:white;
 }
 
 .active-tb {
@@ -114,4 +119,8 @@ body {
     -webkit-transform: scale(1);
     -ms-transform: scale(1);
     transform: scale(1);
+}
+
+.GameSection{
+
 }
