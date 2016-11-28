@@ -1,0 +1,17 @@
+.sidemenu {
+    background-image: url(../img/menublank.png);
+    width: 232px;
+    height: 289px;
+    position: fixed;
+    margin-left: 5%;
+}
+
+#menulist {
+    list-style-type: none;
+    padding-left: 70px;
+    padding-top: 80px;
+}
+
+#menulist a:link a:visited {
+    color: white;
+}
