@@ -3,7 +3,8 @@
     width: 232px;
     height: 289px;
     position: fixed;
-    margin-left: 5%;
+    margin-left: 2%;
+    background-repeat: no-repeat;
 }
 
 #menulist {
@@ -12,6 +13,14 @@
     padding-top: 80px;
 }
 
-#menulist a:link a:visited {
+#menulist a:link {
     color: white;
+}
+
+#menulist a:visited{
+    color: white;
+}
+
+#menulist a:hover{
+    color: #00a8ff;
 }

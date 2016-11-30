@@ -3,7 +3,7 @@
   height: 320px;
   margin: 80px 0;
   text-align: center;
-  border: 1px solid #ddd;
+  /*border: 1px solid #ddd;*/
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease; }
   .service .service-icon-box {
@@ -12,7 +12,7 @@
     display: inline-block;
     margin-bottom: 40px;
     padding: 10px;
-    background: white;
+    /*background: white;*/
     -webkit-transition: all 0.3s ease;
     transition: all 0.3s ease; }
   .service .service-heading {

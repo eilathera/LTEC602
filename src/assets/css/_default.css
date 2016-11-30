@@ -4,25 +4,36 @@ li {
 
 .fullBackground {
     background: url("../img/fullBG.png");
-    width: 100%;
+    max-width: 100vw;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .blog-post>* {
-    padding-left: 30%;
+    /*padding-left: 30%;*/
 }
 
-.blog-post{
-    height: 100vh;
+.blog-post {
+    background: rgba(255, 255, 255, .8);
+    padding: 30px;
 }
 
 h3 {
     font-family: 'Press Start 2P', cursive;
+    text-align: center;
 }
 
 body {
     font-family: 'Exo', sans-serif;
+}
+
+#AboutUs{
+    min-height: inherit;
+}
+
+#Application{
+    min-height: inherit;
 }
